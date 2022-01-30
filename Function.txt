@@ -1,0 +1,22 @@
+edit bashrc
+
+sudo .bashrc
+
+
+add
+
+
+function Mac(){
+python ~/Documents/Scripts/MacChanger/fastmac_all.py $1
+}
+
+
+now you can close or reload source 
+
+source ~/.bashrc
+
+
+
+and run like:
+
+Mac wlan0
